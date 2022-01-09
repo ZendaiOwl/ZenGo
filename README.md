@@ -45,7 +45,7 @@ execute them from the profile using a command such as
 
 #### Side-note
 I needed both of these lines for the `godoc -http` command to work
-`export PATH=$PATH:/usr/local/go/bin`
+`export PATH="$PATH:/usr/local/go/bin"`
 `export PATH="$PATH:$HOME/go/bin"`
 
 Verify that you've installed Go by opening a command prompt and typing the following command:
