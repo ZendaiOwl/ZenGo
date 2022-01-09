@@ -5,8 +5,8 @@ import (
 )
 
 func TestRepeat(t *testing.T) {
-	var character string
 	var count int
+	var character string
 	var expected string
 	repeated := Repeat(character, count)
 
